@@ -102,7 +102,7 @@ function startover()
 {
     level=0;
     gamePattern=[];
-    $("h1").text("PRESS ANY KEY TO BEGIN");
+    setTimeout(function(){$("h1").text("PRESS ANY KEY TO BEGIN");},200);
     document.addEventListener( "keypress", handelKeyPress);
    
 }
